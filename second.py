@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import sklearn
 from sklearn_extra.cluster import KMedoids
 import plotly.express as px
 from sklearn.metrics import silhouette_score
