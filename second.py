@@ -1,3 +1,10 @@
+import streamlit as st
+import pandas as pd
+from sklearn_extra.cluster import KMedoids
+import plotly.express as px
+from sklearn.metrics import silhouette_score
+import numpy as np
+
 st.title('Clustering Lokasi Gempa')
 
 dirty_df = pd.read_excel('./Data_Sulteng_2018_2022.xlsx')
