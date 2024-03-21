@@ -1,6 +1,6 @@
 st.title('Clustering Lokasi Gempa')
 
-dirty_df = pd.read_excel('./data/Data_Sulteng_2018_2022.xlsx')
+dirty_df = pd.read_excel('./Data_Sulteng_2018_2022.xlsx')
 
 dirty_df['Date'] = dirty_df['Date'].replace('12-Aug-29', '2019-08-12 00:00:00')
 dirty_df['Date'] = dirty_df['Date'].replace('12-Aug-22', '2022-08-12 00:00:00')
