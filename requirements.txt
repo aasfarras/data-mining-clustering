@@ -1,6 +1,6 @@
 pandas===2.2.0
 numpy===1.26.3
 streamlit
-scikit-learn
+scikit-learn-extra
 pip===22.0.3
 plotly
