@@ -4,4 +4,4 @@ streamlit
 scikit-learn-extra
 pip===22.0.3
 plotly
-openpyxl
+openpyxl===3.1.2
